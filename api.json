@@ -1,0 +1,20 @@
+[
+  {
+    "URL": "http://localhost:3000/",
+
+    "GET_POST_LIST": "api/post/getallposts",
+    "GET_POST_LIST_BY_LOGINUSER": "api/post/getposts",
+    "GET_SKILL_MATCH_POST": "",
+    "SEARCH_LOCATION_ORIENTED": "api/post/search/senior",
+    "SKILL_SET_MAP_UPDATE": "api/auth/updateregister",
+    "REGISTER_USER": "api/auth/register",
+    "LOGIN_USER": "api/auth/login",
+    "UPDATE_REGISTRATION_DETAILS": "api/auth/updateregister",
+    "LOGOUT": "api/auth/logout",
+    "CREATE_JOB_POST": "api/post/post",
+    "UPDATE_JOB_POST": "api/post/updatepost/5ec3a146dc333e6410c034bb",
+    "DELETE_JOB_POST": "api/post/deletePost/5ec385b4883ae12b30a1531a",
+    "GET_PERTICULAT_POST": "api/post/getPost/5ec3e6edfff76724c4cbfa61",
+    "SEARCH_WITH_LOCATION_AND_SKILL": "api/post/searchwithlocation"
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "shop_name": "shop101",
+  "basic_details": {
+    "floor_no": 1001,
+    "size_of_shop": {
+      "width": 120,
+      "height": 122,
+      "scale": "sqft"
+    },
+    "shop_no": 123,
+    "type_of_business": "Medical Store"
+  },
+  "status_of_shop": "vacant",
+  "Shop_tenant_details": {
+    "tenant_name": "Vinayak",
+    "tenant_kyc_details": {
+      "adhar_no": 2131231232323,
+      "other": null
+    },
+    "tenant_contact_details": {
+      "mobile": 9398497212,
+      "email": "procodezone@gmail.com",
+      "address": "Hyderabad"
+    },
+    "agreement_details": {
+      "agreement_name": "dasjkhdasjhdjasd",
+      "agreement_effective_date": 23123232323,
+      "agreement_renewal_date": 23123232323,
+      "agreement_term_date": 23123232323
+    },
+    "renewal_details": [
+      {
+        "renewal_period": {
+          "from_data": 321312332,
+          "to_date": 32132323
+        },
+        "renewal_effective_date": 3123123123,
+        "renewal_term_date": 3123123123,
+        "renewal_agreement_amount": 14000
+      }
+    ]
+  },
+  "deposit_details": {
+    "deposit_amount": 70000,
+    "deposit_received_date": 23123232323,
+    "deposit_credited_date": 23123232323,
+    "deposit_credited_bank": "SBI",
+    "deposit_text": "data"
+  },
+  "shop_notice_to_vacate": {
+    "isvacate": true,
+    "notice_details": {
+      "notice_date": 43242344,
+      "remider_given": 3,
+      "vacate_date": 9809890890890,
+      "shop_deposit_amount": 50000,
+      "shop_deposit_return": 50000,
+      "shop_deposit_return_date": 90809890890890
+    }
+  },
+  "rental_details": {
+    "retal_agreed": 10000,
+    "retal_date": 23123232323,
+    "rental_history": {
+      "jan": {
+        "status": "paid",
+        "amount": 89999,
+        "paid_date": 89089089080,
+        "is_bank_deposited": true,
+        "deposit_details": {
+          "deposit_amount": 70000,
+          "deposit_date": 23123232323,
+          "source": "UPI"
+        }
+      }
+    }
+  }
+}
