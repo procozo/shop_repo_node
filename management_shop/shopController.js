@@ -132,7 +132,7 @@ shopRouter.post("/rentalHistoryOnSelection", async function (req, res) {
     }
     res.status(200).send({ status_code: 200, result: globlData });
     globlData = [];
-  } catch (error) {}
+  } catch (error) { }
 });
 
 // totalRent
