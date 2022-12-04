@@ -1,9 +1,10 @@
 var mongoose = require("mongoose");
+const { object } = require("mongoose/lib/utils");
 var shopSchma = new mongoose.Schema({
   year: String,
   shop_name: String,
   basic_details: Object,
-  status_of_shop: String,
+  status_of_shop: String | Object,
   Shop_tenant_details: Object,
   deposit_details: Object,
   shop_notice_to_vacate: Object,
